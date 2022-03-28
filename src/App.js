@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from "./NavBar"
+import BackGround from './Background';
+import StoreListing from './StoreListings';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Navbar/>
+      <BackGround/>
+      <StoreListing/>
     </div>
   );
 }
